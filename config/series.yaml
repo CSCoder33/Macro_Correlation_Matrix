@@ -1,0 +1,62 @@
+series:
+  US10Y:
+    source: fred
+    id: DGS10
+    units: "%"
+    transform: level
+  WTI:
+    source: fred
+    id: DCOILWTICO
+    units: USD/bbl
+    transform: return
+  HY_OAS:
+    source: fred
+    id: BAMLH0A0HYM2
+    units: bps
+    transform: level
+    label: HY Spread
+  IG_OAS:
+    source: fred
+    id: BAMLC0A0CM
+    units: bps
+    transform: level
+    label: IG Spread
+  CPI:
+    source: fred
+    id: CPIAUCSL
+    units: index
+    transform: yoy
+  BE10Y:
+    source: fred
+    id: T10YIE
+    units: "%"
+    transform: level
+    label: US 10Y Breakeven
+  USD_TW:
+    source: fred
+    id: DTWEXBGS
+    units: index
+    transform: return
+    label: USD (Trade-weighted Broad)
+  INDPRO:
+    source: fred
+    id: INDPRO
+    units: index
+    transform: yoy
+    label: Industrial Production
+  USREC:
+    source: fred
+    id: USREC
+    units: 0/1
+    transform: level
+  SPX:
+    source: stooq
+    id: SPY.US
+    units: index
+    transform: return
+    label: S&P 500
+  VIX:
+    source: fred
+    id: VIXCLS
+    units: index
+    transform: return

@@ -1,0 +1,8 @@
+lookback_months: 36
+rolling_window_months: 6
+rolling_lookback_months: 240  # limit rolling GIF to last N months (20y = 240)
+mode: levels  # options: levels, returns
+cluster: true
+color_scale: [-1.0, 1.0]
+min_series_for_output: 5
+require_all_series: false

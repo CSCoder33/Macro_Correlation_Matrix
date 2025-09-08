@@ -1,0 +1,28 @@
+__pycache__/
+.pytest_cache/
+.venv/
+venv/
+.env
+.DS_Store
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Data (keep processed/artifacts, ignore volatile pulls)
+data/raw/*
+!data/raw/README.md
+!data/raw/sample_*.csv
+data/processed/*
+!data/processed/README.md
+!data/processed/sample_monthly_levels.csv
+!data/processed/sample_monthly_returns.csv
+
+# Reports are tracked
+reports/figures/*
+reports/animations/*
+
+# Node/Other
+node_modules/
+dist/
+build/
