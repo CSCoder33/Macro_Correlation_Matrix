@@ -45,7 +45,6 @@ Update Curves: passing
   
   If the video tag doesn’t render in your viewer, you can download the MP4 or view the GIF: [MP4](reports/animations/corr_heatmap_rolling_levels_latest.mp4) · ![GIF](reports/animations/corr_heatmap_rolling_levels_latest.gif)
 
-Note: Replace YOUR_USER/YOUR_REPO above after pushing to GitHub so the badge links to your repository.
 
 Developer notes
 - Config-driven: edit config/series.yaml and config/viz.yaml to change series, transforms, and windows. The pipeline reads these on each run.
