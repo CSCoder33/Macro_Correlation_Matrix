@@ -46,6 +46,7 @@ Update Curves:
 
 <p>If your viewer can’t play the video above, use these direct links: <a href="https://github.com/CSCoder33/Macro_Correlation_Matrix/raw/main/reports/animations/corr_heatmap_rolling_levels_latest.mp4">MP4</a> · <a href="https://raw.githubusercontent.com/CSCoder33/Macro_Correlation_Matrix/main/reports/animations/corr_heatmap_rolling_levels_latest.gif">GIF</a> </p>
 Latest static heatmap: https://raw.githubusercontent.com/CSCoder33/Macro_Correlation_Matrix/main/reports/figures/corr_heatmap_levels_latest.png
+
 - Latest rolling (click to play/pause; stops at last frame):
   
   <video src="reports/animations/corr_heatmap_rolling_levels_latest.mp4" controls playsinline muted style="max-width:100%; height:auto;"></video>
