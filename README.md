@@ -37,7 +37,7 @@ Automation (CI)
 - A GitHub Actions workflow (update.yml) runs daily to refresh data, rebuild visuals, and update the README's last updated stamp.
 
 Update Curves: passing
-- CI status: [![Update Heatmaps](https://github.com/YOUR_USER/YOUR_REPO/actions/workflows/update.yml/badge.svg)](https://github.com/YOUR_USER/YOUR_REPO/actions/workflows/update.yml)
+- CI status: Update Curves:Update Correlation Heatmaps
 - Latest static heatmap: ![Latest Correlation Heatmap](reports/figures/corr_heatmap_levels_latest.png)
 - Latest rolling (click to play/pause; stops at last frame):
   
