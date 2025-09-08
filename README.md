@@ -37,7 +37,7 @@ Automation (CI)
 - A GitHub Actions workflow (update.yml) runs daily to refresh data, rebuild visuals, and update the README's last updated stamp.
 
 Update Curves: passing
-- CI status: [![Update Heatmaps](https://github.com/USER/REPO/actions/workflows/update.yml/badge.svg)](https://github.com/USER/REPO/actions/workflows/update.yml)
+- CI status: [![Update Heatmaps](https://github.com/YOUR_USER/YOUR_REPO/actions/workflows/update.yml/badge.svg)](https://github.com/YOUR_USER/YOUR_REPO/actions/workflows/update.yml)
 - Latest static heatmap: ![Latest Correlation Heatmap](reports/figures/corr_heatmap_levels_latest.png)
 - Latest rolling (click to play/pause; stops at last frame):
   
@@ -45,10 +45,10 @@ Update Curves: passing
   
   If the video tag doesn’t render in your viewer, you can download the MP4 or view the GIF: [MP4](reports/animations/corr_heatmap_rolling_levels_latest.mp4) · ![GIF](reports/animations/corr_heatmap_rolling_levels_latest.gif)
 
-Note: Replace USER/REPO above after pushing to GitHub so the badge links to your repository.
+Note: Replace YOUR_USER/YOUR_REPO above after pushing to GitHub so the badge links to your repository.
 
 Developer notes
 - Config-driven: edit config/series.yaml and config/viz.yaml to change series, transforms, and windows. The pipeline reads these on each run.
 - Offline sample: If fetching is unavailable, a small sample in data/processed is used so visuals can still be generated.
 
-Last updated: 2025-09-07
+Last updated: 2025-09-08
