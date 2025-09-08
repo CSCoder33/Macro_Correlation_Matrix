@@ -36,8 +36,8 @@ Glossary
 Automation (CI)
 - A GitHub Actions workflow (update.yml) runs daily to refresh data, rebuild visuals, and update the README's last updated stamp.
 
-Update Curves:
-Update Correlation Heatmaps
+Update Curves:Update Correlation Heatmaps
+Latest static heatmap: https://raw.githubusercontent.com/CSCoder33/Macro_Correlation_Matrix/main/reports/figures/corr_heatmap_levels_latest.png
 - Latest rolling (click to play/pause; stops at last frame):
   
   <video src="reports/animations/corr_heatmap_rolling_levels_latest.mp4" controls playsinline muted style="max-width:100%; height:auto;"></video>
