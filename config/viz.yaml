@@ -1,4 +1,4 @@
-lookback_months: 36
+lookback_months: 6
 rolling_window_months: 6
 rolling_lookback_months: 240  # limit rolling GIF to last N months (20y = 240)
 mode: levels  # options: levels, returns
