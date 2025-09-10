@@ -59,4 +59,3 @@ Developer notes
 - Config-driven: edit config/series.yaml and config/viz.yaml to change series, transforms, and windows. The pipeline reads these on each run.
 - Offline sample: If fetching is unavailable, a small sample in data/processed is used so visuals can still be generated.
 
-Last updated: 2025-09-08
